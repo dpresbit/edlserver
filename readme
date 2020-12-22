@@ -1,0 +1,4 @@
+docker run -d --name edlserver -p 80:80 -v /home/fedadmin/edlserver/index.html:/var/www/localhost/htdocs/index.html:ro edlserver
+
+
+docker run -d --name edlserver -p 80:80 -v /home/fedadmin/edlserver/dodedl.html:/var/www/localhost/htdocs/dodedl.html:ro -v /home/fedadmin/edlserver/gcchedl.html:/var/www/localhost/htdocs/gcchedl.html:ro -v /home/fedadmin/edlserver/commedl.html:/var/www/localhost/htdocs/commedl.html:ro edlserver
