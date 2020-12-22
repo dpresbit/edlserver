@@ -42,7 +42,7 @@ if version['latest'] > latestVersion:
     # filter results for Allow and Optimize endpoints, and transform these into tuples with port and category
     flatUrls = []
     for endpointSet in endpointSets:
-        if endpointSet['category'] in ('Optimize', 'Allow'):
+        if endpointSet['category'] in ('Optimize', 'Allow', 'Default'):
             category = endpointSet['category']
             urls = endpointSet['urls'] if 'urls' in endpointSet else []
 
