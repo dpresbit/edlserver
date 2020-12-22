@@ -25,3 +25,5 @@ Step 4: Access your EDLs at:
 `http://<YOUR_IP>/gcchedl.txt`
  
 `http://<YOUR_IP>/commedl.txt`
+ 
+**For the world's convenience, I have published the three URL EDLs above at [http://edl.ohanalytics.com](http://edl.ohanalytics.com)
