@@ -6,7 +6,7 @@ Step 1: Build the lightweight docker web service (built from scratch on top of A
  
 `docker build . -t edlserver`
  
-Step 2: Start the docker web service (replace `/home/user/edlserver` with your specific path where these files reside)
+Step 2: Start the docker web service (replace `/home/user/edlserver` with your specific path where these files reside; beware the wrap below - it is one contiguous entry!)
  
 `docker run -d --restart unless-stopped --name edlserver -p 80:80 -v /home/user/edlserver/dodedl.txt:/var/www/localhost/htdocs/dodedl.txt:ro -v /home/user/edlserver/gcchedl.txt:/var/www/localhost/htdocs/gcchedl.txt:ro -v /home/user/edlserver/commedl.txt:/var/www/localhost/htdocs/commedl.txt:ro edlserver`
  
