@@ -32,4 +32,4 @@ For the everyone's convenience, I have published the three URL EDLs at http://ed
 - [O365 GCC high EDL](http://edl.ohanalytics.com/gcchedl.txt)
 - [O365 DoD EDL](http://edl.ohanalytics.com/dodedl.txt)
  
-*The EDLs listed above are updated every 15 minutes as updates are found*
+*The EDLs listed above are updated every 15 minutes as changes are found*
