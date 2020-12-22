@@ -26,4 +26,7 @@ Step 4: Access your EDLs at:
  
 `http://<YOUR_IP>/commedl.txt`
  
-**For the world's convenience, I have published the three URL EDLs above at [http://edl.ohanalytics.com](http://edl.ohanalytics.com)
+For the everyone's convenience, I have published the three URL EDLs at http://edl.ohanalytics.com and they are on the 15 minute cron job to update them:
+-[O365 Commercial EDL](http://edl.ohanalytics.com/commedl.txt)
+-[O365 GCC high EDL](http://edl.ohanalytics.com/gcchedl.txt)
+-[O365 DoD EDL](http://edl.ohanalytics.com/dodedl.txt)
