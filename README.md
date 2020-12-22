@@ -19,6 +19,9 @@ Step 3: Create a cronjob as follows by going into `crontab -e` (this will check 
 `*/15 * * * * python3 /home/user/edlserver/comm-update.py >> /home/user/edlserver/cronout-comm.log`
  
 Step 4: Access your EDLs at:
-** http://<YOUR_IP>/dodedl.txt
-** http://<YOUR_IP>/gcchedl.txt
-** http://<YOUR_IP>/commedl.txt
+ 
+`http://<YOUR_IP>/dodedl.txt`
+ 
+`http://<YOUR_IP>/gcchedl.txt`
+ 
+`http://<YOUR_IP>/commedl.txt`
