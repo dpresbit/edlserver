@@ -12,11 +12,11 @@ Step 2: Start the docker web service (replace `/home/user/edlserver` with your s
  
 Step 3: Create a cronjob as follows by going into `crontab -e` (this will check for updates from o365 every 15 minutes; don't forget to change the path from /home/user/edlserver to your real path)
  
-`*/15 * * * * python3 /home/user/edlserver/dod-update.py >> /home/user/edlserver/cronout-dod.log`
+`*/15 * * * * python3 /home/user/edlserver/dod-update.py > /home/user/edlserver/cronout-dod.log`
  
-`*/15 * * * * python3 /home/user/edlserver/gcch-update.py >> /home/user/edlserver/cronout-gcch.log`
+`*/15 * * * * python3 /home/user/edlserver/gcch-update.py > /home/user/edlserver/cronout-gcch.log`
  
-`*/15 * * * * python3 /home/user/edlserver/comm-update.py >> /home/user/edlserver/cronout-comm.log`
+`*/15 * * * * python3 /home/user/edlserver/comm-update.py > /home/user/edlserver/cronout-comm.log`
  
 Step 4: Access your EDLs at:
  

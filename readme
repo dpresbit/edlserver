@@ -1,1 +1,0 @@
-docker run -d --restart unless-stopped --name edlserver -p 80:80 -v /home/fedadmin/edlserver/dodedl.txt:/var/www/localhost/htdocs/dodedl.txt:ro -v /home/fedadmin/edlserver/gcchedl.txt:/var/www/localhost/htdocs/gcchedl.txt:ro -v /home/fedadmin/edlserver/commedl.txt:/var/www/localhost/htdocs/commedl.txt:ro edlserver
