@@ -8,7 +8,7 @@ Step 1: Build the lightweight docker web service (built from scratch on top of A
  
 Step 2: Start the docker web service (replace `/home/user/edlserver` with your specific path where these files reside)
  
-`docker run -d --name edlserver -p 80:80 -v /home/user/edlserver/dodedl.html:/var/www/localhost/htdocs/dodedl.html:ro -v /home/user/edlserver/gcchedl.html:/var/www/localhost/htdocs/gcchedl.html:ro -v /home/user/edlserver/commedl.html:/var/www/localhost/htdocs/commedl.html:ro edlserver`
+`docker run -d --restart unless-stopped --name edlserver -p 80:80 -v /home/user/edlserver/dodedl.txt:/var/www/localhost/htdocs/dodedl.txt:ro -v /home/user/edlserver/gcchedl.txt:/var/www/localhost/htdocs/gcchedl.txt:ro -v /home/user/edlserver/commedl.txt:/var/www/localhost/htdocs/commedl.txt:ro edlserver`
  
 Step 3: Create a cronjob as follows by going into `crontab -e` (this will check for updates from o365 every 15 minutes)
  
