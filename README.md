@@ -28,8 +28,8 @@ Step 4: Access your EDLs at:
  
 For the everyone's convenience, I have published the three URL EDLs at http://edl.ohanalytics.com:
  
--[O365 Commercial EDL](http://edl.ohanalytics.com/commedl.txt)
--[O365 GCC high EDL](http://edl.ohanalytics.com/gcchedl.txt)
--[O365 DoD EDL](http://edl.ohanalytics.com/dodedl.txt)
+- [O365 Commercial EDL](http://edl.ohanalytics.com/commedl.txt)
+- [O365 GCC high EDL](http://edl.ohanalytics.com/gcchedl.txt)
+- [O365 DoD EDL](http://edl.ohanalytics.com/dodedl.txt)
  
 The EDLs listed above are updated every 15 minutes as updates are found
